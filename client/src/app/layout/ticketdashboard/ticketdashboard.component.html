@@ -1,0 +1,46 @@
+
+ <h2>Dashboard</h2>
+ <div class="col-md-12 float-left mtb30">
+    <div class="col-md-4 float-left">
+        <div style="background:#fd8877;padding:10px 15px;color:#fff;">
+            <div>Users</div>
+            <h1>{{ users.length }} </h1>
+        </div>
+    </div> 
+    <div class="col-md-4 float-left">
+        <div style="background:#6cb1b8;padding:10px 15px;color:#fff;">
+            <div>Tickets</div>
+            <h1>{{ book.length }} </h1>
+        </div>
+    </div>
+    <div class="col-md-4 float-left">
+        <div style="background:#f6d087;padding:10px 15px;color:#fff;">
+            <div>Groups</div>
+            <h1>{{ groupp.length }}</h1> 
+        </div>
+    </div>
+ </div>
+
+ <!-- <form (ngSubmit)="status()">
+      <label >Status</label>
+      <select>
+         <option *ngFor="let user of arrBirds" >
+               {{ user.name }}
+          </option>
+    </select>
+    </form>-->
+
+   
+    <div class="col-md-12 mtb30 float-left">
+      <div class="col-md-6 float-left">
+            <div class="panel-body">
+                    <div [chart]="chart"></div>
+            </div>
+      </div>
+      <div class="col-md-6 float-left">
+            <div class="panel-body">
+                    <div [chart]="chart"></div>
+            </div>
+      </div>
+      
+    </div>
